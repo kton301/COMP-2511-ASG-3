@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="About Don">
+   		<meta name="author" content="Don">
+        <meta name="keywords" content="Bio, CV"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="style.css" type="text/css">
+		<title>Don T</title>
+		
+    </head>
+
+    <body>
+        <header>
+            <h1>Don T</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#vid">Video</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id = "about">
+                <h2 class="bar" >About Me</h2>
+                <div class = "container">
+                    <div>
+                        <h3>Education</h3>
+                        <p  class = "info" > Don is an alumni at Crescent Heights High School. Having 
+                            graduated as the class of 2019. Don now attends Mount Royal University in Calgary, Alberta.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3>Work Experience</h3>
+                        <p  class = "info" > Don worked at a small Greek Food restaurant from 2018-2019. As a kitchen
+                             helper his responsibilities were to maintain cleanliness of the work area, and to assist the head chef
+                             in preping and cooking food. 
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3>Skills</h3>
+                        <p  class = "info" > Master level cook, and professional video game driver.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3>Hobbies</h3>
+                        <p  class = "info" > Don loves to listen to music, from various genres such as: 
+                            Rnb, Hip-Hop, Pop and more. He also enjoys playing basketball, working out and 
+                            fixing cars.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id = "vid">
+                <h2 class="bar" >Academics</h2>
+
+                <div>
+                <video poster="images/mruThumb.png" controls width="480" height="360">
+                    <source src="video/MRU.mp4" type='video/mp4'>
+                </video> 
+                </div>    
+
+            </section>              
+            
+            <section id = "contact">
+                <h2 class = "bar">Contact Don</h2>
+                <form method="post" action="mailto:yoyoyo@gmail.com" name="inquiry">
+                <fieldset id = "field">
+                    <legend>Insert Information</legend>
+                    <p>
+                        <label>Name*: 
+                            <input type="text" name ="fullname" size="25" value="" required>
+                        </label>
+                    </p>
+                
+                    <p>
+                        <label> Telphone*:
+                            <input type="tel" name="telphone"  size="25" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" maxlength="20" required>
+                        </label>
+                    </p>
+    
+                    <p>
+                       <label>Email*: 
+                           <input type="text" name="email" size="25" placeholder="something@bmail.com" maxlength="20" required>
+                       </label>
+                    </p>
+
+                    <p>
+                        <label>Inquiry*: 
+                            <input type="text" name="inquiry" size="25"  maxlength="80" required>
+                        </label>
+                     </p>
+
+                </fieldset>
+    
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Clear">
+                </form>
+            </section>
+
+
+
+        </main>
+
+    </body>
+
+
+</html>
